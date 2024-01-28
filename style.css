@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#display img {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+button {
+    border: 1px solid rgba;
+    border-radius: 100%;
+    background-color: rgba;
+    color: rgba;
+    padding: 6px 10px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+button#next {
+    position: absolute;
+    top: 50vh;
+    right: 5vw;
+}
+
+button#prev{
+    position: absolute;
+    top: 50vh;
+    left: 5vw;
+}
+
+.thumb-image {
+    height: 220px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.thumb-container {
+    height: 8vh;
+    width: 50vw;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.459);
+    bottom: 3vh;
+    left: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    backdrop-filter: blur(5px);
+    transform: translateX(-50%);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    color-scheme: dark;
+}
+
+.description-container {
+    position: absolute;
+    height: 50vh;
+    width: 20vw;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+}
+
+.thumbContainerHideButton{
+    bottom: 13vh;
+    width: auto;
+    padding: 0px 7px 1px 7px;
+    height: auto;
+    transition: bottom 0.4s;
+    overflow: hidden;
+}
+
+.thumbContainerHideButton-thumbnailsHidden{
+    bottom: 8vh;
+}
+
+.searchbar {
+    position: absolute;
+    bottom: 4vh; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 101; 
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none; 
+}

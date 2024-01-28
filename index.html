@@ -6,9 +6,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>my Image Gallery</title>
 </head>
 <body>
-    
+    <h1>My Image Gallery</h1>
+    <div id="galeimages-container" class="galeimages-container">
+        <img src="./galeimages/lance-reis--Aqk2kwLU_M-unsplash.jpg" alt="under water" tabindex="0" class="thumb-image">
+        <img src="./galeimages/lance-reis-4G5IpB8rYXQ-unsplash.jpg" alt="under water" tabindex="0" class="thumb-image">
+        <img src="./galeimages/lance-reis-dW_flYwUulc-unsplash.jpg" alt="under water" tabindex="0" class="thumb-image">
+        <img src="./galeimages/lance-reis-EG46GaIHFSI-unsplash.jpg" alt="under water" tabindex="0" class="thumb-image">
+        <img src="./galeimages/lance-reis-f9jI51EewBw-unsplash.jpg" alt="under water" tabindex="0" class="thumb-image">
+        <img src="./galeimages/lance-reis-Oca9M5UfZdg-unsplash.jpg" alt="under water" tabindex="0" class="thumb-image">
+        <img src="./galeimages/markus-stephen-griffiths-MtSF6U6gy2Q-unsplash.jpg" alt="under water" tabindex="0" class="thumb-image">
+        <img src="./galeimages/lance-reis-WcvMzeB23CQ-unsplash.jpg" alt="under water" tabindex="0" class="thumb-image">
+        </div>
+        
+        <button class="thumb-container thumbContainerHideButton" id="thumbContainerHideButton" aria-label="Close the image gallery">╍
+        </button>
+
+        <div id="display">
+            <img src="./galeimages/lance-reis--Aqk2kwLU_M-unsplash.jpg" alt="people standing ">
+            <img src="./galeimages/lance-reis-4G5IpB8rYXQ-unsplash.jpg" alt="people standing ">
+        </div>
+
+        <button id="next" aria-label="Go to the next image">&gt;</button>
+        <button id="prev" aria-label="Go to the previous image">&lt;</button>
+        <form id="search-form">
+            <input type="text" name="search" id="search-bar" placeholder="search for something.." class="searchbar">
+            <div id="announcer" aria-live="polite" class="visually-hidden">trees and forest</div>
+        </form>
+
 </body>
 </html>
